@@ -18,6 +18,10 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "ViewerAR.h"
 
 #include <opencv2/highgui/highgui.hpp>
