@@ -33,6 +33,7 @@ if(NOT OpenCV_FOUND)
 endif()
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+SET (OpenCV_DIR /usr/local/include/opencv4)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 add_library(DBoW2 SHARED ${SRCS_DBOW2} ${SRCS_DUTILS})
