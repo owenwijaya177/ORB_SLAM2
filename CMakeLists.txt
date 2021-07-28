@@ -29,7 +29,7 @@ endif()
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
 SET(OpenCV_DIR /usr/local/opencv4/opencv2)
-find_pacakge(OpenCV 4 REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 if(NOT OpenCV_FOUND)
   find_package(OpenCV 3.0 QUIET)
   if(NOT OpenCV_FOUND)
